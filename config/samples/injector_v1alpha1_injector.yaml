@@ -1,0 +1,6 @@
+apiVersion: injector.esparig.github.io/v1alpha1
+kind: Injector
+metadata:
+  name: injector-sample
+spec:
+  # TODO(user): Add fields here

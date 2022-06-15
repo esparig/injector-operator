@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: injector-operator
 repo: github.com/esparig/injector-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: esparig.github.io
+  group: injector
+  kind: Injector
+  path: github.com/esparig/injector-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"
